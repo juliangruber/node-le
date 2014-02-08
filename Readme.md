@@ -5,6 +5,8 @@
 
 ## Usage
 
+  Works best with [co](https://github.com/visionmedia/co).
+
 ```js
 var le = require('le');
 var co = require('co');
