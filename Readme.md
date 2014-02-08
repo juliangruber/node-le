@@ -25,6 +25,11 @@ co(function*(){
 $ npm install le
 ```
 
+## Stability
+
+  Expect things to change as __le__ grows with its usage. So it's only being
+  used in tiny webapps.
+
 ## Roadmap
 
   - [x] get, set, delete
