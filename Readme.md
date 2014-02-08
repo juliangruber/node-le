@@ -58,17 +58,17 @@ $ npm install le
 
   Create a batch.
 
-### batch#set*(key, value)
+### batch#set(key, value)
 
-  Set `key` to `value`.
+  Queue setting `key` to `value`.
 
 ### batch#del(key)
 
-  Delete the value at `key`.
+  Queue deleting the value at `key`.
 
 ### batch#end*()
 
-  Write the batch.
+  Write the batch of operations.
 
 ### db#keys*([range])
 
