@@ -95,8 +95,8 @@ $ npm install le
   
 ```json
 {
-  gte: "from",
-  lte: "to"
+  "gte": "from",
+  "lte": "to"
 }
 ```
   
@@ -104,12 +104,12 @@ $ npm install le
 
 ```json
 {
-  gte: "prefix!",
-  lte: "prefix!~"
+  "gte": "prefix!",
+  "lte": "prefix!~"
 }
 ```
 
-  Compare: `[from,to]` and `prefix!*`
+  which can be expressed simply as `[from,to]` and `prefix!*`.
 
 ## Encoding
 
