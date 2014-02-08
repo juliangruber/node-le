@@ -1,0 +1,17 @@
+{
+  "name": "le",
+  "version": "0.0.0",
+  "description": "Le db",
+  "repository": "juliangruber/node-le",
+  "license": "MIT",
+  "dependencies": {
+    "stream-to": "~0.3.1",
+    "thunkify": "0.0.1",
+    "debug": "~0.7.4",
+    "level": "~0.18.0"
+  },
+  "devDependencies": {
+    "co": "~3.0.2",
+    "mocha": "~1.17.1"
+  }
+}
