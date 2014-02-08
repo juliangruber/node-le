@@ -44,7 +44,7 @@ $ npm install le
 
 ### db#get*(key)
 
-  Yield the value at `key`.
+  Get the value at `key`.
 
 ### db#set*(key, value)
 
