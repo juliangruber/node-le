@@ -12,7 +12,7 @@ var co = require('co');
 var db = le('db');
 
 co(function*(){
-  yield db.set('foo', bar');
+  yield db.set('foo', 'bar');
   console.log('foo: %s', yield db.get('foo'));
 })();
 ```
@@ -29,6 +29,7 @@ $ npm install le
   - [x] batches
   - [x] prefix ranges
   - [x] interval ranges
+  - [ ] test suite
   - [ ] streaming iteration
   - [ ] encodings
   - [ ] plugin interface (no monkey patching!)
@@ -65,7 +66,7 @@ $ npm install le
 
   Delete the value at `key`.
 
-### batch#end()
+### batch#end*()
 
   Write the batch.
 
@@ -97,7 +98,7 @@ $ npm install le
   - want db.use() instead of monkey patching
   - generators for async ops
   - __generators for streams__
-  - efficient nesting
+  - efficient nesting and less verbose ranges
 
 ## License
 
