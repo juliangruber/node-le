@@ -120,6 +120,10 @@ $ npm install le
 
   For now, everything is stored as `JSON`.
 
+## Debugging
+
+  Set the env var `DEBUG=le` to see what and when it's doing internal operations.
+
 ## Y u do this
 
   - want db.use() instead of monkey patching
