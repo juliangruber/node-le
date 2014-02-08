@@ -91,6 +91,26 @@ $ npm install le
   [interval notations](http://en.wikipedia.org/wiki/Interval_(mathematics)#Classification_of_intervals).
   For `infinity` to x and vice versa omit the boundary, like `[,to]`.  
 
+  In most cases that's less verbose than:
+  
+```json
+{
+  gte: "from",
+  lte: "to"
+}
+```
+  
+  or
+
+```json
+{
+  gte: "prefix!",
+  lte: "prefix!~"
+}
+```
+
+  Compare: `[from,to]` and `prefix!*`
+
 ## Encoding
 
   For now, everything is stored as `JSON`.
