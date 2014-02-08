@@ -131,6 +131,10 @@ $ npm install le
   - __generators for streams__
   - efficient nesting and less verbose ranges
 
+## Associated libraries
+
+  - [model](le-model): Models
+
 ## License
 
   MIT
