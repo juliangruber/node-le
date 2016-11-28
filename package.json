@@ -5,13 +5,13 @@
   "repository": "juliangruber/node-le",
   "license": "MIT",
   "dependencies": {
-    "stream-to": "~0.3.1",
-    "thunkify": "0.0.1",
-    "debug": "~0.7.4",
-    "level": "~0.18.0"
+    "stream-to": "~2.0.0",
+    "thunkify": "2.1.2",
+    "debug": "~2.3.3",
+    "level": "~1.5.0"
   },
   "devDependencies": {
-    "co": "~3.0.2",
-    "mocha": "~1.17.1"
+    "co": "~4.6.0",
+    "mocha": "~3.2.0"
   }
 }
