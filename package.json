@@ -7,7 +7,7 @@
   "dependencies": {
     "stream-to": "~2.0.0",
     "thunkify": "2.1.2",
-    "debug": "~2.3.3",
+    "debug": "~2.6.3",
     "level": "~1.6.0"
   },
   "devDependencies": {
